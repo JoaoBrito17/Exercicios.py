@@ -1,0 +1,13 @@
+1. Leia um número inteiro e informe se ele é positivo ou negativo.
+2. Leia um número (entrada padrão do input) e: Converta para inteiro; Exiba o dobro do valor.
+3. Leia um valor e: Mostre o valor digitado; Mostre o tipo da variável usando type()
+4. Leia um número e informe se ele é par ou ímpar.
+5. Leia um número como texto (input) e: Converta para inteiro; Mostre o triplo.
+6. Leia dois números e exiba qual é o maior.
+7. Leia um valor e verifique: Se é maior que 10 → “Maior que 10”; Caso contrário → “Menor ou
+igual a 10”.
+8. Leia um número e: Se for positivo, mostre a raiz aproximada (use **0.5); Caso contrário,
+informe “Número inválido”
+9. Leia um valor e: Converta para float; Mostre a metade
+10. Leia um número e informe: “Dentro do intervalo” se estiver entre 0 e 10; “Fora do intervalo”
+caso contrário.
