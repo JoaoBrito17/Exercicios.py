@@ -1,0 +1,8 @@
+print("digite o valor de a")
+a = int(input())
+print(("esse é o valor de a:" " " ) + str(a))
+if a >= 0: 
+    print("a é positivo")
+else:
+    print("a é negativo")
+
