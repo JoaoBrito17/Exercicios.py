@@ -1,1 +1,8 @@
 #13. Leia um número e: Se for maior que 100 → mostre metade; Senão → mostre o dobro
+#13. Leia um número e: Se for maior que 100 → mostre metade; Senão → mostre o dobro
+n1 = int(input("digite n1"))
+print(n1)
+if n1 >100:
+    print(n1/2)
+else:
+    print(n1*2)
