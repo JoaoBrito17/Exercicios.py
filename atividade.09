@@ -1,0 +1,11 @@
+#atividade.09
+entrada = input("Digite um valor: ")
+
+# Converta para float (aceita números como 10 ou 10.5)
+valor = float(entrada)
+
+# Calcula a metade
+metade = valor / 2
+
+# Exibe o resultado
+print(f"A metade de {valor} é {metade}")
