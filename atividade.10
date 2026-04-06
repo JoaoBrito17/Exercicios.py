@@ -3,7 +3,7 @@
 numero = float(input("Digite um número: "))
 
 # Verifica se está no intervalo de 0 a 10
-if 0 == numero <= 10:
+if 0 => numero <= 10:
     print("Dentro do intervalo")
 else:
     print("Fora do intervalo")
