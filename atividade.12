@@ -1,0 +1,11 @@
+#12. Leia dois números e: Mostre a soma; Mostre qual é maior ou se são iguais
+a = int(input("digite valor de a"))
+print(a)
+b = int(input("digite valor de b"))
+print(b)
+if a > b:
+    print("a maior que b")
+if b > a:
+    print("b maior que a")
+else:
+    print("a / b são iguais")
