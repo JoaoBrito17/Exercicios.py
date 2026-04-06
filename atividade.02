@@ -1,0 +1,6 @@
+# atividade 2
+numero = input("digite um número: ")
+print(numero)
+numero2 = int(numero)
+dobro = numero2 * 2
+print(f"o dobro de {numero2} é {dobro}")
