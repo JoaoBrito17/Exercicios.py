@@ -1,0 +1,8 @@
+numero = int(input("Informe um número inteiro: "))
+if numero > 0:
+    if numero % 2 == 0 and numero % 3 == 0:
+        print("Múltiplo de 2 e 3")
+    else:
+        print("Não atende")
+else:
+    print("Número inválido")
