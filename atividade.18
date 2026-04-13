@@ -1,0 +1,16 @@
+#Leia um número e: Mostre se ele é par positivo, par negativo, impar positivo, impar negativo ou
+#neutro.
+print("Atividade18")
+
+n = int(input("Digite um número: "))
+
+if n == 0:
+    print("Neutro")
+if n % 2 == 0 and n > 0:
+    print ("Par positivo")
+elif n % 2 == 0 and n < 0:
+    print ("Par negativo")
+if n % 2 != 0 and n < 0:
+    print("Ímpar negativo")
+elif n % 2 != 0 and n > 0:
+    print("Ímpar positivo")
