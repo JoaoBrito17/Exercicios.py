@@ -1,0 +1,11 @@
+#Leia dois números informados pelo usuário. Se ambos forem positivos, calcule e exiba a soma entre
+#eles Caso contrário, calcule e exiba o produto entre eles.
+a = int(input("Digite o primeiro número: "))
+b = int(input("Digite o segundo número: "))
+
+if a > 0 and b > 0:
+    resultado = a + b
+    print("Soma:", resultado)
+else:
+    resultado = a * b
+    print("Produto:", resultado)
