@@ -1,0 +1,28 @@
+#Leia três números inteiros informados pelo usuário. Exiba em ordem decrescente o resto da
+#divisão por 3.
+
+a = int(input("Digite o primeiro número: "))
+b = int(input("Digite o segundo número: "))
+c = int(input("Digite o terceiro número: "))
+#resto da divisão por 3
+a1 = a % 3
+b2 = b % 3 
+c3 = c % 3
+
+if a1 >= b2 and a1 >= c3:
+    if b2 >= c3:
+        print(a1, b2, c3)
+    else:
+        print(a1, c3, b2)
+
+elif b2 >= a1 and b2 >= c3:
+    if a1 >= c3:
+        print(b2, a1, c3)
+    else:
+        print(b2, c3, a1)
+
+else:
+    if a1 >= b2:
+        print(c3, a1, b2)
+    else:
+        print(c3, b2, a1)
