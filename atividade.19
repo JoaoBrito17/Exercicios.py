@@ -1,0 +1,12 @@
+#Leia dois números e: Verifique se são iguais ou diferentes. Sendo diferentes mostre a diferença
+#entre eles
+print("atividade 19")
+n1 = int(input("digite n1"))
+print(n1)
+n2 = int(input("digite n2"))
+print(n2)
+dif = n1 - n2
+if n1 == n2:
+    print(f"{n1} e {n2} são iguais")
+else:
+    print(f"a diferença é de: {dif}")
